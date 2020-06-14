@@ -1,0 +1,23 @@
+{
+  "name": "screen-capture-app",
+  "version": "1.0.0",
+  "description": "Capture screenshots on the web",
+  "main": "GMBcapture.js",
+  "dependencies": {
+    "puppeteer": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node GMBcapture.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdublam/screen-capture-app.git"
+  },
+  "author": "Kevin Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdublam/screen-capture-app/issues"
+  },
+  "homepage": "https://github.com/kdublam/screen-capture-app#readme"
+}
