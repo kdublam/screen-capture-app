@@ -116,5 +116,5 @@ dist
 .pnp.*
 
 # Additional directories
-# dealership_img/
-# GMB_img/
+dealership_img/
+GMB_img/
