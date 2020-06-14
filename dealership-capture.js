@@ -20,7 +20,7 @@ async function getPic(x, num) {
     height: 768,
     deviceScaleFactor: 1,
   });
-  await page.screenshot({path: domain +'.png'});
+  await page.screenshot({path: 'dealership_img/' + domain +'.png'});
 
   await browser.close();
 }
