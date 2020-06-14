@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs')
 
-fs.readFile('dealerships.txt', function(err, data) {
+fs.readFile('GMB.txt', function(err, data) {
     if(err) throw err;
     var array = data.toString().split("\n");
     for(i in array) {
